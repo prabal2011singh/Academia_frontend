@@ -1,8 +1,7 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
-import SpecializationCourses from './components/SpecializationCourses';
-import SpecializationPage from './components/SpecializationPage';
+import LoginPage from './pages/LoginPage';
+import SpecializationCourses from './pages/SpecializationCourses';
+import SpecializationPage from './pages/SpecializationPage';
 import Navbar from './components/Navbar';
 import { useState,useEffect } from 'react';
 
