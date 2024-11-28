@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    width: 100vw;
+}
+
+.loginHeading
+{
+    color: #304151;
+    padding: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.formContainer
+{
+    border: 1px solid rgba(20, 20, 29, 0.415);
+    border-radius: 10px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 300px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    font-size: larger;
+    color: #304151;
+}
+
+.submitButton
+{
+    background-color: #3AADD8;
+    color: #F9FCFC;
+    width: 100px;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #8b8b8b;
+    padding: 0.5rem;
+}
+
+
+.loginInput{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #304151ad;
+    color: #2B3240;
+    font-size: 17px;
+    padding: 0.5rem;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: #F9FCFC;
+    font-weight: 700;
+    font-size: larger;
+    background-color: #2B3240;
+    /* background-color: rgba(0, 31, 87, 0.878); */
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navButton
+{
+    background-color: #3AADD8;
+    color: #F9FCFC;
+    width: 100px;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #2B3240;
+    padding: 0.5rem;
+}
