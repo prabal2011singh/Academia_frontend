@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import { useState,useEffect } from 'react';
 
 function App() {
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
   
     useEffect(() => {
       const token = localStorage.getItem('token');

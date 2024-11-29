@@ -5,6 +5,7 @@ import '../presentations/SpecializationPage.css';
 import {specializationAPI} from '../utils/httpUtil';
 
 function SpecializationPage() {
+  const [error, setError] = useState('');
   const [specializations, setSpecializations] = useState([]);
   const [formData, setFormData] = useState({
     code: '',
@@ -51,6 +52,7 @@ function SpecializationPage() {
       });
       setSelectedSpec(null);
     } catch (error) {
+      setError("Error in adding Specialization");
       console.error('Error saving specialization:', error.message);
     }
   };
@@ -117,6 +119,7 @@ function SpecializationPage() {
         <button className='submitButton1' type="submit">
           {selectedSpec ? 'Update' : 'Add'} Specialization
         </button>
+        {error && <p>{error}</p>}
       </form>
 
       <div style={{ 
